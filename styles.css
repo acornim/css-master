@@ -1,0 +1,9 @@
+.father{
+    display:flex;
+    justify-content: space-around;
+}
+.child{
+    height:200px;
+    width : 200px;
+    background-color: cadetblue;
+}
