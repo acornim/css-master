@@ -1,0 +1,21 @@
+body {
+    background: #f9edf1;
+}
+h2 {
+    color: red;
+}
+.box h2 {
+    color: #00f;
+}
+a {
+    margin-bottom: 10px;
+}
+a:nth-child(even),
+a:nth-child(odd) {
+    text-decoration: none;
+    display: block;
+    color: #00f;
+}
+a:nth-child(even) {
+    color: red;
+}

@@ -1,0 +1,27 @@
+@import "_variables";
+@import "_mixins";
+
+body {
+    background: $bg;
+}
+h2{
+    color : red;
+}
+//nesting 
+.box {
+    h2{
+        color : blue;
+    }
+}
+
+a {
+    margin-bottom: 10px;
+  
+    &:nth-child(odd) {
+      @include link("odd");
+    }
+  
+    &:nth-child(even) {
+      @include link("even");
+    }
+  }
