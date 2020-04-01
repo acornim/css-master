@@ -1,5 +1,4 @@
 ## SCSS
-=====
 - SCSS is preprocessor for CSS
 - sass compiles SCSS into CSS
 - with SCSS, we can make CSS like a programming language.
